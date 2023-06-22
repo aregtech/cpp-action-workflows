@@ -23,7 +23,7 @@ To clone the  repository, follow these steps in your desired directory (such as 
 
 * Run the following command **to clone the repository and its submodules**:
    ```bash
-   git clone --recurse-submodules https://github.com/aregtech/areg-sdk-demo.git
+   git clone --recurse-submodules https://github.com/aregtech/cpp-action-workflows.git
    ```
    It is important to clone the AREG SDK *submodule* as well. This command ensures that both the main repository and its submodule are cloned.
 
