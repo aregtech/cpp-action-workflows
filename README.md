@@ -6,6 +6,7 @@
 
 [![CMake](https://github.com/aregtech/cpp-action-workflows/actions/workflows/cmake.yml/badge.svg?branch=master)](https://github.com/aregtech/cpp-action-workflows/actions/workflows/cmake.yml)
 [![MSBuild](https://github.com/aregtech/cpp-action-workflows/actions/workflows/msbuild.yml/badge.svg?branch=master)](https://github.com/aregtech/cpp-action-workflows/actions/workflows/msbuild.yml)
+[![Cygwin](https://github.com/aregtech/cpp-action-workflows/actions/workflows/cygwin.yml/badge.svg)](https://github.com/aregtech/cpp-action-workflows/actions/workflows/cygwin.yml)
 
 ---
 
