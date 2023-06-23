@@ -67,10 +67,10 @@ jobs:
         working-directory: ${{github.workspace}}
         run: |
           cmake -B ./build |
-            -DAREG_COMPILER_FAMILY=${{matrix.config.family}}    |
-            -DAREG_BUILD_TYPE=${{env.BUILD_TYPE}}               |
-            -DAREG_BINARY=${{matrix.config.lib}}                |
-            -DAREG_EXTENDED:BOOL=${{matrix.config.extend}}      |
+            -DAREG_COMPILER_FAMILY=${{matrix.config.family}}    ^
+            -DAREG_BUILD_TYPE=${{env.BUILD_TYPE}}               ^
+            -DAREG_BINARY=${{matrix.config.lib}}                ^
+            -DAREG_EXTENDED:BOOL=${{matrix.config.extend}}      ^
             -DAREG_LOGS:BOOL=${{matrix.config.logs}}
 
       - name: Build with CMake
