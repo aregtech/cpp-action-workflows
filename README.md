@@ -14,7 +14,7 @@
 
 While was developing the [AREG SDK](https://github.com/aregtech/areg-sdk/), I spent lot of time to look for various workflow actions to automate build and test run. I've seen many examples and experiments and finally decided to share my with others. These workflows for sure are not the optimal, it is out of the agenda, but I hope it is a good practice. Let's say, this is kind of playground.
 
-I've used [areg-sdk-demo](https://github.com/aregtech/areg-sdk-demo) template repository, it compiles with CMake, Make, Microsoft Visual Studio and compiles with  Windows Subsystem for Linux (WSL). I addition, it has  [areg-sdk](https://github.com/aregtech/areg-sdk/) as a submodule and has google tests. So, it has enough complication.
+I've used [areg-sdk-demo](https://github.com/aregtech/areg-sdk-demo) template repository, it compiles with CMake, Make (_planned_), Microsoft Visual Studio and compiles with  Windows Subsystem for Linux (WSL). In addition, it has  [areg-sdk](https://github.com/aregtech/areg-sdk/) as a submodule and has google tests. So, it has enough complication.
 
 ---
 
